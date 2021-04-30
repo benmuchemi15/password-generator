@@ -1,6 +1,25 @@
 // Assignment code here
 
+// prompts for password
+var charCount = window.prompt("How many characters would you like your password?");
 
+
+var upperLetter = window.prompt("Would you like an uppercase letter?");
+
+
+var lowerLetter = window.prompt("Would you like a lower case letter");
+
+
+var number = window.prompt("Would you like a number?");
+
+
+var symbols = window.prompt("Would you like a symbol?");
+
+window.alert("Click the generate button below to generate a password");
+
+function passwordInitiate() {
+    window.alert("Click the Generate Button to generate your password!")
+}
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
